@@ -1,0 +1,66 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}
+
+.container {
+  background: url("../img/westeros1200x800.jpg") center top no-repeat;
+  position: relative;
+  min-height: 768px;
+}
+
+.col-md-12 {
+  margin-top: -300px
+}
+
+.wrapper{
+  text-align: center;
+  z-index: 200;
+}
+
+#winterfell-marker {
+  top:100px;
+  left: 23%;
+}
+
+#kings-landing-marker {
+  top:600px;
+  left: 32%;
+}
+
+#iron-islands-marker {
+  top:400px;
+  left: 10%;
+}
+
+#eyrie-marker {
+  top: 385px;
+  left: 31%;
+}
+
+#braavos-marker {
+  top:280px;
+  left: 57%;
+}
+
+.pin {
+  position: absolute;
+  z-index: 300;
+}
+
+.pin img{
+  cursor: pointer;
+}
+
+.profile-grid {
+  min-width: 450px;
+  border: 1px solid black;
+  min-height: 100px;
+  background-color: rgba(0,0,0, 0.6);
+  border-radius: 12px;
+  color: white;
+  display: inline-block;
+  text-align: left;
+  margin: 10px 0;
+  padding: 10px 30px;
+}
