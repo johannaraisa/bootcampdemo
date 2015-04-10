@@ -13,6 +13,14 @@ body {
   margin-top: -300px
 }
 
+.profile-wrapper {
+  float: left;
+  text-align: center;
+  position: relative;
+  left: 28%;
+  z-index: 500;
+}
+
 .wrapper{
   text-align: center;
   z-index: 200;
@@ -63,4 +71,36 @@ body {
   text-align: left;
   margin: 10px 0;
   padding: 10px 30px;
+}
+
+/* Responsive style fixes */
+
+@media (max-width: 991px) {
+  .profile-wrapper {
+    left: 23%;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-wrapper {
+    left: 15%;
+  }
+}
+
+@media (max-width: 620px) {
+  .profile-wrapper {
+    left: 10%;
+  }
+}
+
+@media (max-width: 560px) {
+  .profile-wrapper {
+    left: 0;
+  }
+  .container {
+    padding: 0;
+  }
+  .profile-grid {
+    min-width: 350px;
+  }
 }

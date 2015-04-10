@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <item>
+      <address>Winterfell</address>
+      <binding>winterfell</binding>
+      <children />
+      <firstName>Jon</firstName>
+      <lastName>Snow</lastName>
+      <occupation>Black Brother</occupation>
+      <portrait>img/jon.jpg</portrait>
+   </item>
+   <item>
+      <address>Meereen</address>
+      <binding>meereen</binding>
+      <children />
+      <firstName>Daenerys</firstName>
+      <lastName>Targaryen</lastName>
+      <occupation>Queen</occupation>
+      <portrait />
+   </item>
+   <item>
+      <address>King's Landing</address>
+      <binding>kings-landing</binding>
+      <children />
+      <firstName>Jaime</firstName>
+      <lastName>Lannister</lastName>
+      <occupation>Captain of King's Guard</occupation>
+      <portrait>img/jaime.jpeg</portrait>
+   </item>
+   <item>
+      <address>Sunspear</address>
+      <binding>sunspear</binding>
+      <children>
+         <item>
+            <age>24</age>
+            <firstName>Arianne</firstName>
+         </item>
+      </children>
+      <firstName>Doran</firstName>
+      <lastName>Martell</lastName>
+      <occupation>Prince</occupation>
+      <portrait />
+   </item>
+   <item>
+      <address>King's Landing</address>
+      <binding>kings-landing</binding>
+      <children>
+         <item>
+            <age>13</age>
+            <firstName>Joffrey</firstName>
+         </item>
+         <item>
+            <age>11</age>
+            <firstName>Myrcella</firstName>
+         </item>
+         <item>
+            <age>8</age>
+            <firstName>Tommen</firstName>
+         </item>
+      </children>
+      <firstName>Cersei</firstName>
+      <lastName>Lannister</lastName>
+      <occupation>Queen</occupation>
+      <portrait>img/cersei.jpg</portrait>
+   </item>
+   <item>
+      <address>Eyrie</address>
+      <binding>eyrie</binding>
+      <children />
+      <firstName>Sansa</firstName>
+      <lastName>Stark</lastName>
+      <occupation>Wife</occupation>
+      <portrait>img/sansa.jpg</portrait>
+   </item>
+   <item>
+      <address>Braavos</address>
+      <binding>braavos</binding>
+      <children />
+      <firstName>Arya</firstName>
+      <lastName>Stark</lastName>
+      <occupation>undefined</occupation>
+      <portrait>img/arya.jpg</portrait>
+   </item>
+   <item>
+      <address>Iron Islands</address>
+      <binding>iron-islands</binding>
+      <children>
+         <item>
+            <age>24</age>
+            <firstName>Rodrik</firstName>
+         </item>
+         <item>
+            <age>23</age>
+            <firstName>Maron</firstName>
+         </item>
+         <item>
+            <age>20</age>
+            <firstName>Asha</firstName>
+         </item>
+         <item>
+            <age>18</age>
+            <firstName>Theon</firstName>
+         </item>
+      </children>
+      <firstName>Balon</firstName>
+      <lastName>Greyjoy</lastName>
+      <occupation>King</occupation>
+      <portrait>img/balon.jpg</portrait>
+   </item>
+</root>

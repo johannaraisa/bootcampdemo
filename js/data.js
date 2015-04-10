@@ -23,9 +23,7 @@ $(function () {
   var slideDown = function() {
     $( ".col-md-12" ).animate({
       marginTop: "40px",
-    }, 400, function() {
-        // Animation complete.
-    });
+    }, 400, function() {});
   }
 
 });
