@@ -1,4 +1,4 @@
-[
+var mydata = [
     {
         "binding":"winterfell",
         "firstName":"Jon", 
